@@ -4,15 +4,11 @@ This Python program demonstrates how to sort a dictionary:
 - Alphabetically by keys
 - Alphabetically by values
 
----
-
 ## 🎯 Aim
 
 To write a Python program that sorts a dictionary's:
 - Keys in alphabetical order
 - Values in alphabetical order
-
----
 
 ## 🧠 Algorithm
 
@@ -27,12 +23,17 @@ To write a Python program that sorts a dictionary's:
 5. **Display** the original and sorted dictionaries.
 6. **End the program.**
 
----
-
 ## 🧪Program
-Add Code here
+~~~
+data=eval(input())
+sort=dict(sorted(data.items()))
+print("Keys and Values sorted in alphabetical order by the key")
+for key, value in sort.items():
+    print(f"({key}, {value}) ",end="")
+~~~
 
 ## Sample Output
+<img width="802" height="70" alt="image" src="https://github.com/user-attachments/assets/20d56f1f-ce37-4339-adef-0447c3596180" />
 
 ## Result
-
+Thus the program executed successfully.
